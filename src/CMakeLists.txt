@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.25)
 
 set(D3D12MA_LIBRARY_SOURCE_FILES
     D3D12MemAlloc.cpp
+    Common.cpp
+    Common.h
     "${PROJECT_SOURCE_DIR}/include/D3D12MemAlloc.h"
 )
 
